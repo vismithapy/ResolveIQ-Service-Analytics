@@ -1,0 +1,501 @@
+ticket_id,created_date,resolved_date,status,priority,category,team,assigned_agent,sla_hours,resolution_hours,breached_sla,reopened,csat_score,channel,region
+TKT0001,2024-03-22,2024-03-25,Resolved,Low,Account,L2 Support,Alice,72,77,Yes,Yes,4,Chat,Canada East
+TKT0002,2024-01-04,2024-01-07,Resolved,Low,Network,Application Support,Maya,72,77,Yes,No,4,Email,Canada West
+TKT0003,2024-02-05,2024-02-07,Resolved,High,Login,L2 Support,Chris,24,51,Yes,Yes,4,Phone,US
+TKT0004,2024-02-15,2024-02-16,Resolved,High,Account,L1 Support,Priya,24,45,Yes,No,4,Email,APAC
+TKT0005,2024-04-20,,In Progress,Medium,Network,L1 Support,John,48,,No,No,,Chat,US
+TKT0006,2024-04-20,2024-04-23,Resolved,Low,Account,Infra Team,Emma,72,93,Yes,No,5,Chat,US
+TKT0007,2024-03-23,2024-03-26,Resolved,Low,Technical,Application Support,Alice,72,89,Yes,No,3,Chat,APAC
+TKT0008,2024-02-11,2024-02-12,Resolved,High,Login,L2 Support,John,24,35,Yes,No,4,Phone,APAC
+TKT0009,2024-04-01,2024-04-04,Resolved,Medium,Database,Infra Team,Priya,48,79,Yes,No,5,Chat,US
+TKT0010,2024-02-24,2024-02-24,Resolved,Critical,Password Reset,Billing Team,Alice,24,14,No,No,3,Chat,APAC
+TKT0011,2024-01-21,2024-01-23,Resolved,High,Password Reset,Application Support,Sarah,24,67,Yes,No,5,Portal,APAC
+TKT0012,2024-04-20,2024-04-21,Resolved,Critical,Billing,Application Support,Mark,24,28,Yes,No,5,Phone,Canada East
+TKT0013,2024-04-22,2024-04-23,Resolved,High,Technical,Application Support,Sarah,24,28,Yes,No,5,Phone,Canada West
+TKT0014,2024-03-08,,In Progress,Critical,Access,Infra Team,John,24,,No,No,,Email,US
+TKT0015,2024-02-09,,Open,Medium,Network,Application Support,Sarah,48,,No,No,,Email,APAC
+TKT0016,2024-03-09,2024-03-12,Resolved,High,Technical,Infra Team,Rohan,24,85,Yes,No,3,Chat,US
+TKT0017,2024-03-10,,In Progress,High,Network,Billing Team,Chris,24,,No,No,,Phone,APAC
+TKT0018,2024-02-01,2024-02-04,Resolved,Medium,Access,L1 Support,Maya,48,88,Yes,Yes,2,Chat,Canada West
+TKT0019,2024-01-05,2024-01-06,Resolved,Critical,Billing,Application Support,Alice,24,24,No,No,5,Phone,APAC
+TKT0020,2024-03-14,2024-03-16,Resolved,Medium,Database,Infra Team,Alice,48,53,Yes,No,4,Email,Canada East
+TKT0021,2024-04-03,2024-04-04,Resolved,Low,Billing,L1 Support,Chris,72,32,No,No,2,Phone,Canada East
+TKT0022,2024-01-24,2024-01-27,Resolved,Medium,Network,L1 Support,Priya,48,77,Yes,No,5,Email,Canada East
+TKT0023,2024-04-28,2024-04-30,Resolved,High,Network,L2 Support,Chris,24,59,Yes,No,3,Portal,APAC
+TKT0024,2024-01-01,2024-01-02,Resolved,Critical,Account,Infra Team,Mark,24,45,Yes,No,2,Portal,APAC
+TKT0025,2024-04-04,2024-04-07,Resolved,Medium,Access,L1 Support,John,48,73,Yes,Yes,3,Portal,Canada West
+TKT0026,2024-03-17,2024-03-19,Resolved,Low,Network,Infra Team,Sarah,72,61,No,No,4,Chat,Canada East
+TKT0027,2024-02-10,2024-02-13,Resolved,Critical,Network,Billing Team,Alice,24,90,Yes,No,3,Phone,APAC
+TKT0028,2024-04-06,2024-04-09,Resolved,Critical,Login,Infra Team,Maya,24,72,Yes,No,5,Email,Canada East
+TKT0029,2024-04-22,,Open,Low,Network,Billing Team,Mark,72,,No,No,,Chat,APAC
+TKT0030,2024-03-19,2024-03-19,Resolved,Critical,Login,Application Support,Mark,24,21,No,No,3,Email,Canada West
+TKT0031,2024-02-06,,In Progress,High,Access,L2 Support,Mark,24,,No,No,,Portal,US
+TKT0032,2024-01-12,2024-01-13,Resolved,High,Account,L1 Support,John,24,41,Yes,No,4,Phone,Canada West
+TKT0033,2024-03-31,,Open,Medium,Login,L1 Support,Sarah,48,,No,No,,Chat,Canada East
+TKT0034,2024-01-19,2024-01-20,Resolved,Medium,Login,Billing Team,Emma,48,39,No,No,4,Email,US
+TKT0035,2024-03-12,,In Progress,Critical,Password Reset,Application Support,David,24,,No,No,,Chat,Canada West
+TKT0036,2024-04-22,2024-04-22,Resolved,Medium,Technical,Billing Team,Chris,48,21,No,No,1,Chat,US
+TKT0037,2024-03-01,2024-03-02,Resolved,Medium,Database,Billing Team,Mark,48,32,No,No,3,Chat,Canada West
+TKT0038,2024-01-09,,In Progress,Critical,Account,Billing Team,Rohan,24,,No,Yes,,Portal,US
+TKT0039,2024-02-03,2024-02-05,Resolved,Low,Account,L1 Support,Sarah,72,48,No,No,5,Portal,US
+TKT0040,2024-01-15,2024-01-18,Resolved,Medium,Network,Billing Team,John,48,76,Yes,No,5,Portal,Canada East
+TKT0041,2024-04-04,2024-04-04,Resolved,High,Access,Infra Team,Sarah,24,23,No,No,3,Phone,US
+TKT0042,2024-02-09,2024-02-11,Resolved,High,Access,Infra Team,Mark,24,56,Yes,No,5,Chat,Canada West
+TKT0043,2024-03-19,2024-03-22,Resolved,High,Password Reset,Application Support,John,24,82,Yes,No,3,Phone,US
+TKT0044,2024-02-26,2024-02-29,Resolved,Medium,Network,Application Support,Priya,48,92,Yes,No,3,Chat,Canada East
+TKT0045,2024-04-14,2024-04-15,Resolved,Critical,Network,Billing Team,Alice,24,39,Yes,No,4,Chat,Canada West
+TKT0046,2024-04-08,2024-04-09,Resolved,Low,Password Reset,Application Support,Alice,72,26,No,No,1,Portal,APAC
+TKT0047,2024-04-06,2024-04-07,Resolved,Critical,Billing,Infra Team,Alice,24,39,Yes,No,2,Chat,APAC
+TKT0048,2024-01-18,,In Progress,High,Access,Infra Team,Maya,24,,No,No,,Portal,APAC
+TKT0049,2024-03-01,2024-03-01,Resolved,Medium,Network,Billing Team,Rohan,48,17,No,No,3,Portal,Canada West
+TKT0050,2024-02-12,2024-02-13,Resolved,Medium,Billing,L2 Support,David,48,35,No,Yes,4,Chat,APAC
+TKT0051,2024-03-10,,In Progress,Medium,Login,L2 Support,Chris,48,,No,No,,Portal,Canada East
+TKT0052,2024-02-18,2024-02-19,Resolved,Medium,Access,Billing Team,Chris,48,42,No,No,1,Portal,Canada West
+TKT0053,2024-02-13,,In Progress,High,Password Reset,L2 Support,Priya,24,,No,No,,Chat,Canada East
+TKT0054,2024-03-25,2024-03-27,Resolved,Low,Password Reset,L2 Support,Priya,72,49,No,No,3,Chat,Canada East
+TKT0055,2024-04-07,2024-04-10,Resolved,Critical,Account,Infra Team,Mark,24,77,Yes,Yes,5,Email,APAC
+TKT0056,2024-01-29,2024-01-30,Resolved,High,Login,L1 Support,Alice,24,38,Yes,Yes,4,Chat,Canada East
+TKT0057,2024-03-13,,Open,Critical,Database,Billing Team,Emma,24,,No,No,,Chat,Canada East
+TKT0058,2024-02-09,,In Progress,Low,Login,Billing Team,Maya,72,,No,No,,Portal,APAC
+TKT0059,2024-03-16,2024-03-18,Resolved,High,Network,L1 Support,Mark,24,62,Yes,No,2,Email,Canada East
+TKT0060,2024-03-23,2024-03-25,Resolved,Medium,Password Reset,Infra Team,Sarah,48,66,Yes,No,4,Portal,US
+TKT0061,2024-04-03,2024-04-06,Resolved,Medium,Account,Application Support,Rohan,48,83,Yes,No,5,Portal,APAC
+TKT0062,2024-04-16,2024-04-18,Resolved,Critical,Account,Infra Team,Alice,24,71,Yes,No,3,Portal,APAC
+TKT0063,2024-01-28,2024-01-29,Resolved,Medium,Account,Billing Team,Mark,48,32,No,Yes,5,Phone,Canada East
+TKT0064,2024-03-03,2024-03-04,Resolved,High,Network,Infra Team,Priya,24,36,Yes,No,3,Portal,Canada East
+TKT0065,2024-03-25,,In Progress,High,Database,Application Support,Rohan,24,,No,No,,Phone,APAC
+TKT0066,2024-02-15,2024-02-17,Resolved,High,Account,Billing Team,Mark,24,48,Yes,Yes,4,Chat,Canada East
+TKT0067,2024-04-07,,In Progress,High,Network,L2 Support,Priya,24,,No,No,,Phone,US
+TKT0068,2024-02-07,2024-02-07,Resolved,Medium,Technical,Billing Team,John,48,14,No,No,4,Chat,US
+TKT0069,2024-01-17,2024-01-19,Resolved,High,Database,L1 Support,John,24,51,Yes,No,2,Phone,APAC
+TKT0070,2024-04-30,2024-05-03,Resolved,Critical,Billing,L1 Support,Chris,24,95,Yes,Yes,2,Portal,Canada East
+TKT0071,2024-03-13,,Open,Critical,Billing,L2 Support,Sarah,24,,No,No,,Portal,Canada West
+TKT0072,2024-04-26,,In Progress,Medium,Password Reset,Billing Team,Maya,48,,No,No,,Email,Canada East
+TKT0073,2024-01-28,2024-01-30,Resolved,Medium,Billing,L2 Support,Alice,48,60,Yes,No,4,Chat,Canada East
+TKT0074,2024-02-07,,In Progress,Low,Account,Billing Team,Priya,72,,No,No,,Email,Canada West
+TKT0075,2024-03-21,,In Progress,High,Network,Infra Team,Sarah,24,,No,No,,Chat,Canada West
+TKT0076,2024-01-10,2024-01-14,Resolved,Low,Account,Application Support,Maya,72,96,Yes,No,4,Phone,APAC
+TKT0077,2024-02-04,2024-02-07,Resolved,Medium,Database,Infra Team,Sarah,48,85,Yes,No,2,Email,APAC
+TKT0078,2024-03-27,2024-03-30,Resolved,High,Login,Billing Team,Maya,24,91,Yes,No,3,Email,Canada West
+TKT0079,2024-03-15,2024-03-18,Resolved,Medium,Database,L1 Support,Priya,48,93,Yes,Yes,3,Phone,APAC
+TKT0080,2024-02-22,2024-02-23,Resolved,High,Account,Infra Team,Rohan,24,40,Yes,No,5,Email,APAC
+TKT0081,2024-02-21,2024-02-23,Resolved,Critical,Login,Application Support,Priya,24,54,Yes,No,4,Portal,Canada East
+TKT0082,2024-02-26,2024-02-28,Resolved,High,Network,Billing Team,Rohan,24,70,Yes,Yes,5,Chat,US
+TKT0083,2024-03-18,2024-03-18,Resolved,High,Technical,Billing Team,Rohan,24,22,No,No,2,Email,APAC
+TKT0084,2024-04-16,,In Progress,Low,Account,Application Support,Mark,72,,No,No,,Portal,APAC
+TKT0085,2024-03-11,2024-03-13,Resolved,Low,Network,Application Support,Rohan,72,61,No,No,5,Chat,Canada East
+TKT0086,2024-02-04,2024-02-06,Resolved,High,Account,Billing Team,Maya,24,69,Yes,No,4,Portal,Canada West
+TKT0087,2024-03-10,,In Progress,Medium,Access,L2 Support,Alice,48,,No,No,,Portal,Canada West
+TKT0088,2024-02-10,2024-02-13,Resolved,High,Password Reset,Infra Team,David,24,83,Yes,No,2,Portal,Canada East
+TKT0089,2024-04-18,2024-04-19,Resolved,Medium,Database,L1 Support,David,48,41,No,No,4,Portal,Canada West
+TKT0090,2024-03-24,,In Progress,Low,Access,Application Support,Chris,72,,No,Yes,,Phone,APAC
+TKT0091,2024-01-09,,Open,Medium,Account,L2 Support,Sarah,48,,No,No,,Portal,Canada East
+TKT0092,2024-01-13,2024-01-15,Resolved,Medium,Account,L1 Support,John,48,55,Yes,No,3,Phone,Canada East
+TKT0093,2024-02-22,2024-02-23,Resolved,High,Technical,L2 Support,David,24,38,Yes,No,4,Email,APAC
+TKT0094,2024-01-30,,In Progress,Medium,Account,Infra Team,Mark,48,,No,No,,Email,APAC
+TKT0095,2024-01-21,2024-01-22,Resolved,Low,Access,Application Support,Mark,72,46,No,No,4,Portal,US
+TKT0096,2024-03-02,2024-03-05,Resolved,Low,Password Reset,Application Support,Emma,72,92,Yes,No,1,Phone,US
+TKT0097,2024-04-20,2024-04-22,Resolved,High,Login,Application Support,Priya,24,53,Yes,No,3,Phone,Canada West
+TKT0098,2024-02-02,2024-02-04,Resolved,High,Technical,L1 Support,John,24,54,Yes,No,2,Phone,APAC
+TKT0099,2024-02-07,2024-02-08,Resolved,Medium,Password Reset,L2 Support,Alice,48,42,No,No,3,Chat,US
+TKT0100,2024-04-15,2024-04-16,Resolved,Critical,Account,Billing Team,Sarah,24,36,Yes,No,5,Portal,Canada East
+TKT0101,2024-02-20,2024-02-22,Resolved,Critical,Access,L1 Support,Chris,24,66,Yes,No,5,Email,US
+TKT0102,2024-02-03,2024-02-06,Resolved,High,Access,L1 Support,Alice,24,79,Yes,No,4,Portal,Canada East
+TKT0103,2024-03-23,2024-03-23,Resolved,Low,Database,Billing Team,Chris,72,12,No,No,4,Email,Canada West
+TKT0104,2024-01-13,2024-01-14,Resolved,Medium,Technical,Infra Team,Priya,48,27,No,No,4,Phone,APAC
+TKT0105,2024-04-16,2024-04-17,Resolved,Medium,Password Reset,Billing Team,John,48,38,No,No,2,Phone,Canada West
+TKT0106,2024-03-28,,In Progress,Medium,Access,L1 Support,Chris,48,,No,No,,Phone,Canada West
+TKT0107,2024-04-15,2024-04-16,Resolved,Medium,Network,Application Support,John,48,24,No,No,3,Email,US
+TKT0108,2024-04-16,,Open,High,Network,Application Support,Alice,24,,No,No,,Chat,US
+TKT0109,2024-03-17,2024-03-17,Resolved,Low,Technical,L2 Support,Rohan,72,11,No,Yes,4,Phone,Canada West
+TKT0110,2024-04-10,2024-04-12,Resolved,Medium,Access,L1 Support,David,48,61,Yes,No,5,Phone,Canada East
+TKT0111,2024-03-01,2024-03-04,Resolved,Medium,Access,Application Support,Maya,48,86,Yes,Yes,5,Email,APAC
+TKT0112,2024-04-20,,Open,High,Account,Infra Team,John,24,,No,No,,Email,APAC
+TKT0113,2024-01-14,2024-01-15,Resolved,Medium,Database,L1 Support,Sarah,48,43,No,No,4,Phone,Canada West
+TKT0114,2024-04-01,,Open,Medium,Account,Infra Team,Rohan,48,,No,Yes,,Portal,Canada East
+TKT0115,2024-03-24,2024-03-26,Resolved,High,Network,Infra Team,Priya,24,66,Yes,No,5,Chat,APAC
+TKT0116,2024-02-10,2024-02-10,Resolved,Medium,Account,Billing Team,David,48,18,No,Yes,2,Portal,Canada East
+TKT0117,2024-04-04,2024-04-07,Resolved,Medium,Technical,Application Support,John,48,93,Yes,No,4,Phone,Canada East
+TKT0118,2024-04-27,2024-04-28,Resolved,High,Account,Application Support,Mark,24,35,Yes,No,4,Phone,Canada East
+TKT0119,2024-04-18,,Open,Low,Access,L1 Support,Mark,72,,No,No,,Chat,APAC
+TKT0120,2024-04-14,2024-04-15,Resolved,High,Login,Application Support,Mark,24,47,Yes,No,4,Email,Canada West
+TKT0121,2024-01-24,2024-01-25,Resolved,Critical,Password Reset,L1 Support,David,24,35,Yes,No,4,Email,Canada East
+TKT0122,2024-01-21,2024-01-24,Resolved,Medium,Access,Application Support,Maya,48,87,Yes,Yes,2,Email,Canada East
+TKT0123,2024-02-26,2024-02-29,Resolved,High,Database,Application Support,Priya,24,73,Yes,Yes,4,Portal,US
+TKT0124,2024-02-06,2024-02-09,Resolved,High,Database,Application Support,Mark,24,84,Yes,Yes,3,Email,Canada West
+TKT0125,2024-01-28,2024-01-30,Resolved,High,Account,Billing Team,Emma,24,63,Yes,No,4,Email,Canada East
+TKT0126,2024-03-31,2024-03-31,Resolved,Medium,Access,L1 Support,Chris,48,17,No,No,4,Email,APAC
+TKT0127,2024-03-14,,In Progress,Medium,Password Reset,Billing Team,Sarah,48,,No,No,,Portal,Canada East
+TKT0128,2024-03-20,2024-03-22,Resolved,Medium,Access,L1 Support,Chris,48,59,Yes,No,4,Email,Canada West
+TKT0129,2024-02-09,2024-02-10,Resolved,High,Network,Billing Team,David,24,32,Yes,No,3,Email,Canada East
+TKT0130,2024-04-03,2024-04-06,Resolved,Critical,Technical,L2 Support,Sarah,24,85,Yes,No,5,Chat,US
+TKT0131,2024-01-10,,In Progress,Low,Database,Infra Team,Maya,72,,No,No,,Portal,US
+TKT0132,2024-01-20,2024-01-20,Resolved,Medium,Database,Infra Team,Mark,48,17,No,No,4,Phone,Canada East
+TKT0133,2024-01-08,2024-01-08,Resolved,Medium,Account,L1 Support,Sarah,48,13,No,No,5,Portal,APAC
+TKT0134,2024-03-24,2024-03-26,Resolved,Low,Database,Application Support,David,72,51,No,No,2,Email,APAC
+TKT0135,2024-03-23,2024-03-24,Resolved,Low,Network,Infra Team,Priya,72,44,No,No,5,Chat,US
+TKT0136,2024-03-27,2024-03-30,Resolved,High,Access,L1 Support,Emma,24,92,Yes,No,4,Email,APAC
+TKT0137,2024-01-20,2024-01-20,Resolved,Medium,Technical,Billing Team,Mark,48,18,No,No,4,Portal,Canada West
+TKT0138,2024-04-11,2024-04-12,Resolved,Medium,Technical,Application Support,Sarah,48,47,No,No,3,Portal,US
+TKT0139,2024-04-08,,Open,Medium,Network,L2 Support,David,48,,No,Yes,,Email,US
+TKT0140,2024-04-08,2024-04-09,Resolved,Medium,Login,Billing Team,Maya,48,31,No,No,5,Chat,APAC
+TKT0141,2024-04-13,,In Progress,Critical,Database,L1 Support,Chris,24,,No,No,,Phone,Canada West
+TKT0142,2024-04-06,,In Progress,High,Database,L2 Support,Rohan,24,,No,No,,Chat,US
+TKT0143,2024-04-25,,Open,High,Access,Application Support,Priya,24,,No,No,,Portal,US
+TKT0144,2024-02-23,2024-02-25,Resolved,Critical,Network,Application Support,David,24,55,Yes,No,2,Phone,Canada East
+TKT0145,2024-04-18,2024-04-21,Resolved,Medium,Billing,Billing Team,Sarah,48,73,Yes,Yes,4,Chat,US
+TKT0146,2024-04-26,2024-04-28,Resolved,Medium,Database,Billing Team,John,48,55,Yes,No,5,Portal,Canada East
+TKT0147,2024-02-17,2024-02-19,Resolved,Medium,Access,L1 Support,Emma,48,68,Yes,No,2,Chat,Canada West
+TKT0148,2024-03-31,,Open,Medium,Login,L1 Support,John,48,,No,No,,Phone,Canada West
+TKT0149,2024-04-03,2024-04-04,Resolved,High,Password Reset,L1 Support,Mark,24,38,Yes,No,5,Chat,US
+TKT0150,2024-02-28,2024-02-29,Resolved,Low,Database,Application Support,Rohan,72,45,No,No,4,Email,Canada West
+TKT0151,2024-01-31,,In Progress,High,Technical,L1 Support,Rohan,24,,No,No,,Phone,Canada East
+TKT0152,2024-04-10,,In Progress,Critical,Login,Infra Team,Priya,24,,No,No,,Email,APAC
+TKT0153,2024-01-03,2024-01-05,Resolved,Medium,Billing,Billing Team,Alice,48,53,Yes,No,5,Email,US
+TKT0154,2024-01-23,2024-01-25,Resolved,High,Database,Infra Team,David,24,66,Yes,Yes,3,Chat,Canada East
+TKT0155,2024-04-11,2024-04-14,Resolved,Low,Login,Billing Team,Mark,72,90,Yes,No,4,Portal,APAC
+TKT0156,2024-04-09,,In Progress,Low,Access,Billing Team,Sarah,72,,No,No,,Phone,APAC
+TKT0157,2024-04-24,,In Progress,Critical,Access,L2 Support,Priya,24,,No,No,,Portal,US
+TKT0158,2024-04-12,2024-04-12,Resolved,Low,Password Reset,L1 Support,Chris,72,18,No,No,3,Chat,US
+TKT0159,2024-02-27,2024-02-29,Resolved,High,Password Reset,L2 Support,Priya,24,53,Yes,No,4,Phone,APAC
+TKT0160,2024-03-22,,In Progress,Critical,Login,L1 Support,Chris,24,,No,Yes,,Phone,Canada West
+TKT0161,2024-03-18,,Open,High,Database,L1 Support,David,24,,No,No,,Email,Canada West
+TKT0162,2024-02-19,2024-02-19,Resolved,Critical,Login,Application Support,David,24,17,No,No,4,Portal,US
+TKT0163,2024-02-20,2024-02-22,Resolved,Medium,Account,L2 Support,Sarah,48,57,Yes,No,2,Email,Canada West
+TKT0164,2024-04-09,2024-04-10,Resolved,Medium,Database,L2 Support,Maya,48,25,No,No,4,Phone,APAC
+TKT0165,2024-04-25,,In Progress,High,Billing,Billing Team,Emma,24,,No,No,,Email,US
+TKT0166,2024-04-01,,In Progress,High,Technical,Billing Team,Rohan,24,,No,No,,Chat,Canada East
+TKT0167,2024-01-31,,Open,High,Login,Billing Team,Rohan,24,,No,No,,Phone,APAC
+TKT0168,2024-03-19,,Open,Critical,Billing,Billing Team,Chris,24,,No,No,,Portal,APAC
+TKT0169,2024-01-10,2024-01-13,Resolved,Low,Access,L1 Support,Priya,72,78,Yes,No,3,Portal,US
+TKT0170,2024-01-17,2024-01-19,Resolved,Medium,Login,L1 Support,Rohan,48,49,Yes,No,3,Chat,US
+TKT0171,2024-04-30,2024-05-01,Resolved,Medium,Account,L1 Support,Mark,48,46,No,No,2,Chat,US
+TKT0172,2024-03-23,,Open,Low,Technical,L2 Support,Maya,72,,No,Yes,,Phone,Canada East
+TKT0173,2024-01-06,2024-01-09,Resolved,Critical,Account,L2 Support,Maya,24,88,Yes,No,4,Portal,Canada East
+TKT0174,2024-02-08,2024-02-10,Resolved,Medium,Password Reset,Billing Team,Priya,48,61,Yes,No,3,Email,Canada East
+TKT0175,2024-03-18,2024-03-18,Resolved,Low,Access,Billing Team,Chris,72,21,No,No,4,Chat,US
+TKT0176,2024-02-04,,In Progress,Medium,Technical,L1 Support,John,48,,No,No,,Phone,APAC
+TKT0177,2024-04-20,2024-04-23,Resolved,Critical,Access,Application Support,Emma,24,73,Yes,No,5,Chat,Canada West
+TKT0178,2024-03-04,2024-03-04,Resolved,Low,Password Reset,Application Support,Priya,72,14,No,Yes,4,Chat,Canada West
+TKT0179,2024-04-22,2024-04-23,Resolved,High,Database,Billing Team,Rohan,24,41,Yes,No,5,Email,Canada East
+TKT0180,2024-02-16,2024-02-16,Resolved,Low,Login,Application Support,Rohan,72,17,No,No,4,Chat,US
+TKT0181,2024-03-11,,Open,Medium,Billing,L2 Support,Sarah,48,,No,No,,Portal,US
+TKT0182,2024-04-30,2024-05-01,Resolved,Medium,Technical,L2 Support,Maya,48,25,No,No,5,Portal,Canada East
+TKT0183,2024-03-07,2024-03-10,Resolved,Medium,Technical,Billing Team,Maya,48,86,Yes,No,3,Phone,Canada West
+TKT0184,2024-02-13,2024-02-16,Resolved,Medium,Database,Application Support,Mark,48,94,Yes,Yes,4,Portal,Canada East
+TKT0185,2024-02-09,2024-02-12,Resolved,High,Login,Application Support,Priya,24,82,Yes,No,4,Phone,Canada West
+TKT0186,2024-04-02,2024-04-04,Resolved,High,Password Reset,L2 Support,Alice,24,64,Yes,No,3,Email,Canada East
+TKT0187,2024-03-29,,In Progress,Medium,Database,L1 Support,David,48,,No,No,,Chat,US
+TKT0188,2024-02-18,2024-02-21,Resolved,Medium,Technical,Infra Team,Rohan,48,95,Yes,No,4,Phone,US
+TKT0189,2024-03-19,,In Progress,Medium,Network,Billing Team,Rohan,48,,No,No,,Phone,Canada West
+TKT0190,2024-04-08,2024-04-09,Resolved,Medium,Network,Infra Team,Emma,48,43,No,No,4,Portal,US
+TKT0191,2024-03-10,2024-03-10,Resolved,Medium,Password Reset,Billing Team,David,48,18,No,No,4,Phone,Canada East
+TKT0192,2024-02-02,2024-02-05,Resolved,High,Network,L2 Support,Rohan,24,86,Yes,No,3,Phone,US
+TKT0193,2024-01-07,2024-01-09,Resolved,High,Network,L2 Support,John,24,68,Yes,Yes,5,Email,APAC
+TKT0194,2024-01-01,,Open,Critical,Technical,Infra Team,Priya,24,,No,No,,Portal,Canada West
+TKT0195,2024-02-06,2024-02-07,Resolved,High,Billing,Application Support,Alice,24,30,Yes,No,1,Email,Canada West
+TKT0196,2024-04-17,2024-04-20,Resolved,Medium,Database,L2 Support,Mark,48,85,Yes,Yes,5,Email,Canada East
+TKT0197,2024-02-06,2024-02-06,Resolved,Medium,Database,L2 Support,Rohan,48,22,No,No,5,Portal,US
+TKT0198,2024-03-23,2024-03-26,Resolved,Medium,Technical,L1 Support,Emma,48,89,Yes,No,5,Phone,Canada West
+TKT0199,2024-03-06,2024-03-07,Resolved,Medium,Password Reset,L1 Support,David,48,39,No,Yes,4,Chat,APAC
+TKT0200,2024-02-27,2024-03-02,Resolved,High,Access,Billing Team,Maya,24,96,Yes,No,4,Email,US
+TKT0201,2024-02-29,2024-03-01,Resolved,Medium,Password Reset,Application Support,Mark,48,36,No,No,2,Email,US
+TKT0202,2024-01-20,,Open,Medium,Access,Infra Team,Rohan,48,,No,No,,Portal,Canada West
+TKT0203,2024-03-17,,In Progress,Critical,Billing,Application Support,Priya,24,,No,Yes,,Phone,Canada East
+TKT0204,2024-04-16,2024-04-19,Resolved,Medium,Network,Application Support,Rohan,48,74,Yes,No,4,Chat,Canada West
+TKT0205,2024-04-01,2024-04-03,Resolved,High,Billing,Application Support,Priya,24,61,Yes,No,2,Email,APAC
+TKT0206,2024-02-29,2024-03-03,Resolved,High,Account,L1 Support,Chris,24,82,Yes,Yes,4,Phone,Canada East
+TKT0207,2024-03-30,2024-03-31,Resolved,Low,Login,L1 Support,Priya,72,25,No,No,5,Email,US
+TKT0208,2024-03-23,2024-03-26,Resolved,Critical,Access,Infra Team,Priya,24,92,Yes,No,2,Portal,APAC
+TKT0209,2024-04-20,,Open,Medium,Technical,Application Support,Chris,48,,No,No,,Chat,Canada West
+TKT0210,2024-02-08,2024-02-09,Resolved,Medium,Password Reset,Application Support,Chris,48,27,No,No,5,Chat,Canada West
+TKT0211,2024-04-02,2024-04-02,Resolved,High,Login,Infra Team,Maya,24,20,No,No,4,Email,Canada West
+TKT0212,2024-03-27,2024-03-28,Resolved,High,Login,L2 Support,John,24,35,Yes,No,5,Portal,APAC
+TKT0213,2024-01-18,2024-01-19,Resolved,Medium,Account,L2 Support,Maya,48,26,No,No,4,Phone,US
+TKT0214,2024-02-22,2024-02-22,Resolved,Medium,Login,Application Support,Maya,48,14,No,No,5,Chat,APAC
+TKT0215,2024-03-26,2024-03-29,Resolved,Medium,Access,Infra Team,Chris,48,76,Yes,No,5,Chat,US
+TKT0216,2024-02-08,2024-02-09,Resolved,Critical,Technical,Infra Team,John,24,25,Yes,No,3,Portal,APAC
+TKT0217,2024-02-12,2024-02-15,Resolved,High,Database,Billing Team,Sarah,24,94,Yes,No,1,Chat,Canada East
+TKT0218,2024-01-10,,In Progress,Low,Network,Infra Team,Alice,72,,No,Yes,,Phone,US
+TKT0219,2024-04-29,,In Progress,Low,Billing,Infra Team,Alice,72,,No,No,,Chat,APAC
+TKT0220,2024-04-09,2024-04-11,Resolved,Medium,Database,Application Support,Emma,48,71,Yes,No,5,Phone,US
+TKT0221,2024-04-02,2024-04-03,Resolved,Medium,Access,L2 Support,Emma,48,36,No,No,1,Phone,APAC
+TKT0222,2024-03-11,2024-03-14,Resolved,Critical,Password Reset,Billing Team,David,24,80,Yes,No,4,Chat,US
+TKT0223,2024-03-24,2024-03-26,Resolved,Critical,Access,Billing Team,Priya,24,53,Yes,No,5,Portal,APAC
+TKT0224,2024-03-03,,Open,Low,Login,Application Support,John,72,,No,No,,Email,Canada East
+TKT0225,2024-04-17,2024-04-20,Resolved,High,Billing,L2 Support,John,24,87,Yes,No,5,Chat,APAC
+TKT0226,2024-04-26,2024-04-27,Resolved,Medium,Database,L1 Support,John,48,43,No,No,3,Portal,Canada East
+TKT0227,2024-03-05,2024-03-08,Resolved,High,Password Reset,L2 Support,Sarah,24,87,Yes,No,5,Email,Canada West
+TKT0228,2024-02-04,,In Progress,High,Billing,Billing Team,Chris,24,,No,No,,Portal,Canada West
+TKT0229,2024-03-28,2024-03-30,Resolved,High,Billing,L1 Support,Sarah,24,68,Yes,Yes,1,Portal,APAC
+TKT0230,2024-01-22,2024-01-26,Resolved,Low,Password Reset,Billing Team,Maya,72,96,Yes,No,4,Email,Canada East
+TKT0231,2024-01-06,,In Progress,Critical,Account,Application Support,Maya,24,,No,No,,Email,Canada West
+TKT0232,2024-01-27,2024-01-29,Resolved,High,Password Reset,L1 Support,Mark,24,57,Yes,No,4,Chat,Canada West
+TKT0233,2024-02-19,2024-02-20,Resolved,High,Technical,L1 Support,Rohan,24,37,Yes,No,3,Phone,Canada East
+TKT0234,2024-04-08,2024-04-10,Resolved,High,Password Reset,Billing Team,John,24,53,Yes,No,4,Phone,APAC
+TKT0235,2024-01-24,2024-01-24,Resolved,High,Password Reset,L1 Support,Maya,24,18,No,No,4,Phone,Canada West
+TKT0236,2024-04-10,2024-04-11,Resolved,High,Password Reset,Billing Team,Emma,24,47,Yes,No,5,Email,Canada East
+TKT0237,2024-01-14,2024-01-16,Resolved,Low,Technical,Infra Team,Priya,72,53,No,No,4,Portal,Canada East
+TKT0238,2024-04-10,,Open,Medium,Password Reset,L1 Support,Mark,48,,No,No,,Portal,APAC
+TKT0239,2024-03-12,2024-03-13,Resolved,Critical,Network,Application Support,Rohan,24,42,Yes,No,4,Chat,APAC
+TKT0240,2024-01-09,2024-01-10,Resolved,Low,Account,Infra Team,Mark,72,39,No,No,4,Portal,Canada East
+TKT0241,2024-03-19,2024-03-22,Resolved,Low,Billing,L2 Support,Mark,72,87,Yes,No,5,Email,APAC
+TKT0242,2024-02-26,2024-02-28,Resolved,Medium,Technical,Billing Team,Emma,48,58,Yes,No,3,Chat,APAC
+TKT0243,2024-03-29,2024-04-01,Resolved,High,Network,Billing Team,Chris,24,80,Yes,No,5,Phone,APAC
+TKT0244,2024-01-24,,Open,High,Login,Infra Team,Alice,24,,No,Yes,,Portal,US
+TKT0245,2024-04-18,2024-04-19,Resolved,High,Password Reset,Infra Team,David,24,27,Yes,No,5,Phone,Canada West
+TKT0246,2024-01-10,,Open,Medium,Database,Application Support,Chris,48,,No,No,,Portal,Canada East
+TKT0247,2024-04-24,2024-04-24,Resolved,High,Billing,L1 Support,Alice,24,13,No,No,4,Phone,Canada West
+TKT0248,2024-03-23,2024-03-26,Resolved,Medium,Access,Infra Team,Sarah,48,73,Yes,No,4,Email,Canada East
+TKT0249,2024-03-29,2024-03-29,Resolved,High,Database,Billing Team,Chris,24,11,No,No,3,Portal,Canada West
+TKT0250,2024-04-27,2024-04-28,Resolved,Critical,Billing,L2 Support,Emma,24,34,Yes,No,3,Phone,US
+TKT0251,2024-01-13,,Open,Medium,Database,Billing Team,Sarah,48,,No,Yes,,Phone,Canada East
+TKT0252,2024-04-18,2024-04-20,Resolved,Medium,Billing,L2 Support,Alice,48,62,Yes,No,3,Chat,Canada West
+TKT0253,2024-02-21,2024-02-23,Resolved,High,Technical,Infra Team,Chris,24,62,Yes,No,5,Email,Canada West
+TKT0254,2024-01-27,2024-01-29,Resolved,Medium,Billing,Application Support,Sarah,48,66,Yes,Yes,4,Chat,US
+TKT0255,2024-03-03,2024-03-05,Resolved,Medium,Access,Application Support,Chris,48,66,Yes,No,5,Portal,Canada East
+TKT0256,2024-03-31,2024-04-01,Resolved,High,Billing,L2 Support,Emma,24,31,Yes,No,2,Email,Canada West
+TKT0257,2024-02-19,2024-02-22,Resolved,Medium,Technical,Application Support,Chris,48,76,Yes,No,4,Portal,Canada West
+TKT0258,2024-01-23,,Open,High,Database,Billing Team,David,24,,No,No,,Chat,US
+TKT0259,2024-04-20,,In Progress,Medium,Login,Infra Team,David,48,,No,No,,Chat,APAC
+TKT0260,2024-03-04,2024-03-04,Resolved,Medium,Database,Infra Team,Priya,48,11,No,No,3,Portal,Canada West
+TKT0261,2024-01-05,2024-01-06,Resolved,Medium,Account,L2 Support,Priya,48,42,No,No,5,Portal,Canada East
+TKT0262,2024-02-16,2024-02-19,Resolved,Medium,Login,Infra Team,Rohan,48,91,Yes,No,3,Chat,APAC
+TKT0263,2024-01-05,2024-01-08,Resolved,Medium,Access,L1 Support,Priya,48,83,Yes,No,5,Email,Canada West
+TKT0264,2024-03-19,,Open,High,Technical,Application Support,David,24,,No,No,,Chat,Canada West
+TKT0265,2024-03-09,,In Progress,Medium,Technical,Billing Team,Mark,48,,No,No,,Phone,US
+TKT0266,2024-04-25,,In Progress,High,Billing,L2 Support,Chris,24,,No,Yes,,Email,US
+TKT0267,2024-04-20,2024-04-23,Resolved,Low,Technical,Billing Team,Alice,72,88,Yes,No,4,Portal,APAC
+TKT0268,2024-02-27,2024-02-29,Resolved,Low,Billing,Infra Team,Rohan,72,70,No,No,1,Phone,US
+TKT0269,2024-04-09,2024-04-11,Resolved,High,Billing,Infra Team,Emma,24,62,Yes,No,4,Email,APAC
+TKT0270,2024-02-11,,Open,High,Access,Application Support,Maya,24,,No,No,,Chat,APAC
+TKT0271,2024-04-07,2024-04-07,Resolved,Low,Billing,Infra Team,John,72,8,No,No,4,Email,Canada West
+TKT0272,2024-03-29,2024-03-31,Resolved,Critical,Account,L2 Support,Mark,24,55,Yes,No,4,Email,US
+TKT0273,2024-01-07,2024-01-09,Resolved,Medium,Account,L2 Support,Chris,48,69,Yes,Yes,4,Email,Canada East
+TKT0274,2024-03-07,2024-03-09,Resolved,High,Login,L1 Support,Emma,24,69,Yes,Yes,4,Email,APAC
+TKT0275,2024-04-03,2024-04-04,Resolved,High,Billing,Billing Team,Emma,24,25,Yes,No,4,Phone,Canada West
+TKT0276,2024-01-09,2024-01-12,Resolved,Medium,Login,Application Support,David,48,88,Yes,No,5,Portal,US
+TKT0277,2024-03-19,2024-03-21,Resolved,High,Network,L1 Support,Sarah,24,57,Yes,No,4,Chat,Canada East
+TKT0278,2024-04-11,,Open,Low,Account,L1 Support,Alice,72,,No,No,,Phone,Canada East
+TKT0279,2024-02-08,2024-02-08,Resolved,Medium,Network,Infra Team,Mark,48,22,No,No,4,Email,Canada West
+TKT0280,2024-01-10,,In Progress,Medium,Login,Billing Team,Emma,48,,No,No,,Chat,APAC
+TKT0281,2024-02-16,2024-02-17,Resolved,Medium,Technical,Infra Team,Sarah,48,35,No,Yes,2,Email,Canada East
+TKT0282,2024-04-11,2024-04-14,Resolved,Medium,Account,Application Support,Chris,48,76,Yes,No,3,Portal,APAC
+TKT0283,2024-01-11,2024-01-14,Resolved,Medium,Network,L2 Support,Rohan,48,91,Yes,No,2,Phone,APAC
+TKT0284,2024-03-30,2024-04-02,Resolved,Medium,Network,L1 Support,Alice,48,86,Yes,No,3,Email,APAC
+TKT0285,2024-04-04,2024-04-06,Resolved,High,Technical,L1 Support,John,24,52,Yes,No,5,Chat,Canada East
+TKT0286,2024-04-02,2024-04-04,Resolved,Medium,Access,L2 Support,Mark,48,62,Yes,No,2,Email,Canada East
+TKT0287,2024-04-01,2024-04-04,Resolved,Critical,Billing,Infra Team,Priya,24,80,Yes,No,3,Phone,Canada East
+TKT0288,2024-04-08,,In Progress,Low,Billing,L2 Support,Rohan,72,,No,Yes,,Email,Canada East
+TKT0289,2024-01-06,2024-01-07,Resolved,Medium,Password Reset,L2 Support,David,48,39,No,No,5,Email,APAC
+TKT0290,2024-02-04,2024-02-07,Resolved,High,Access,L1 Support,Rohan,24,74,Yes,No,5,Email,Canada West
+TKT0291,2024-01-09,2024-01-10,Resolved,Critical,Account,Billing Team,Emma,24,33,Yes,No,5,Email,APAC
+TKT0292,2024-04-04,2024-04-07,Resolved,High,Database,Billing Team,Maya,24,77,Yes,No,3,Portal,Canada West
+TKT0293,2024-01-01,,In Progress,Critical,Login,L2 Support,Rohan,24,,No,Yes,,Phone,Canada East
+TKT0294,2024-03-25,2024-03-25,Resolved,Medium,Account,L1 Support,Alice,48,15,No,No,2,Chat,APAC
+TKT0295,2024-02-05,,In Progress,Low,Network,Application Support,Chris,72,,No,Yes,,Phone,APAC
+TKT0296,2024-01-13,2024-01-14,Resolved,Medium,Password Reset,L1 Support,Maya,48,24,No,No,3,Email,APAC
+TKT0297,2024-02-10,2024-02-11,Resolved,Critical,Password Reset,Billing Team,Emma,24,33,Yes,Yes,5,Portal,US
+TKT0298,2024-01-14,2024-01-16,Resolved,Low,Technical,Infra Team,Priya,72,53,No,No,3,Phone,APAC
+TKT0299,2024-02-09,2024-02-11,Resolved,Medium,Billing,L1 Support,David,48,49,Yes,Yes,5,Phone,Canada East
+TKT0300,2024-02-15,,In Progress,Medium,Login,Billing Team,Mark,48,,No,No,,Chat,Canada East
+TKT0301,2024-03-12,2024-03-12,Resolved,High,Network,L1 Support,Priya,24,15,No,No,5,Email,Canada West
+TKT0302,2024-01-17,2024-01-17,Resolved,Low,Password Reset,Billing Team,Sarah,72,16,No,No,4,Phone,Canada East
+TKT0303,2024-04-13,2024-04-16,Resolved,Low,Access,L1 Support,John,72,81,Yes,No,5,Portal,Canada East
+TKT0304,2024-03-04,2024-03-06,Resolved,Low,Password Reset,L2 Support,Emma,72,65,No,No,1,Chat,Canada West
+TKT0305,2024-03-20,2024-03-22,Resolved,High,Account,Infra Team,Chris,24,57,Yes,Yes,3,Portal,Canada East
+TKT0306,2024-04-23,2024-04-25,Resolved,High,Network,Application Support,John,24,70,Yes,No,4,Portal,US
+TKT0307,2024-02-11,,In Progress,Medium,Technical,L1 Support,Emma,48,,No,No,,Chat,Canada East
+TKT0308,2024-01-08,2024-01-11,Resolved,High,Database,Application Support,Emma,24,92,Yes,No,4,Chat,Canada West
+TKT0309,2024-04-11,,In Progress,Critical,Login,L2 Support,Maya,24,,No,No,,Portal,US
+TKT0310,2024-01-23,,In Progress,Low,Access,Billing Team,Maya,72,,No,No,,Email,US
+TKT0311,2024-03-13,2024-03-13,Resolved,Critical,Database,Application Support,Mark,24,15,No,No,3,Chat,APAC
+TKT0312,2024-03-08,2024-03-10,Resolved,Medium,Access,Application Support,Alice,48,49,Yes,Yes,2,Chat,US
+TKT0313,2024-03-31,2024-04-03,Resolved,Critical,Billing,Application Support,Emma,24,92,Yes,No,2,Email,US
+TKT0314,2024-02-08,2024-02-11,Resolved,Medium,Technical,Infra Team,Priya,48,79,Yes,No,5,Phone,Canada West
+TKT0315,2024-04-10,2024-04-10,Resolved,Medium,Technical,Infra Team,Mark,48,8,No,No,5,Phone,Canada West
+TKT0316,2024-02-20,2024-02-20,Resolved,Critical,Login,L2 Support,Maya,24,21,No,No,2,Phone,Canada West
+TKT0317,2024-04-05,2024-04-06,Resolved,Low,Access,Billing Team,David,72,41,No,No,4,Email,US
+TKT0318,2024-02-14,2024-02-15,Resolved,Medium,Billing,L1 Support,John,48,29,No,No,4,Portal,APAC
+TKT0319,2024-02-18,2024-02-18,Resolved,Medium,Password Reset,L1 Support,Priya,48,12,No,No,3,Chat,Canada West
+TKT0320,2024-01-14,2024-01-17,Resolved,Low,Technical,Infra Team,David,72,86,Yes,No,5,Email,Canada East
+TKT0321,2024-02-25,2024-02-26,Resolved,Critical,Technical,Application Support,Chris,24,34,Yes,No,4,Chat,Canada East
+TKT0322,2024-03-11,2024-03-14,Resolved,High,Account,Billing Team,Mark,24,81,Yes,No,4,Chat,Canada East
+TKT0323,2024-01-07,2024-01-08,Resolved,Medium,Password Reset,L1 Support,Mark,48,34,No,No,3,Portal,Canada West
+TKT0324,2024-01-11,,In Progress,Medium,Billing,Billing Team,Chris,48,,No,No,,Portal,APAC
+TKT0325,2024-03-23,2024-03-24,Resolved,Medium,Technical,Billing Team,Chris,48,41,No,No,3,Phone,Canada West
+TKT0326,2024-04-17,,Open,Medium,Login,L2 Support,Sarah,48,,No,No,,Email,US
+TKT0327,2024-04-06,2024-04-07,Resolved,High,Login,Infra Team,Rohan,24,38,Yes,No,2,Portal,APAC
+TKT0328,2024-04-25,,In Progress,Critical,Login,Application Support,Maya,24,,No,No,,Chat,Canada East
+TKT0329,2024-01-22,,In Progress,Critical,Network,L2 Support,John,24,,No,No,,Portal,Canada East
+TKT0330,2024-04-15,2024-04-18,Resolved,High,Account,Billing Team,Sarah,24,78,Yes,No,3,Email,APAC
+TKT0331,2024-02-28,2024-02-29,Resolved,Critical,Login,Application Support,Maya,24,26,Yes,No,4,Portal,Canada East
+TKT0332,2024-04-30,,In Progress,Low,Billing,Application Support,Sarah,72,,No,No,,Phone,US
+TKT0333,2024-03-24,2024-03-27,Resolved,Medium,Database,L1 Support,David,48,85,Yes,No,4,Phone,APAC
+TKT0334,2024-02-20,,In Progress,Critical,Access,L2 Support,John,24,,No,Yes,,Portal,US
+TKT0335,2024-04-14,2024-04-16,Resolved,High,Account,Billing Team,Priya,24,64,Yes,No,3,Email,Canada West
+TKT0336,2024-04-03,2024-04-06,Resolved,Medium,Billing,L2 Support,Priya,48,74,Yes,No,5,Chat,APAC
+TKT0337,2024-03-06,,Open,High,Billing,Billing Team,Rohan,24,,No,No,,Portal,Canada West
+TKT0338,2024-03-13,2024-03-15,Resolved,Low,Network,L2 Support,John,72,54,No,No,3,Chat,Canada East
+TKT0339,2024-04-15,2024-04-17,Resolved,Medium,Password Reset,L1 Support,John,48,65,Yes,No,5,Chat,US
+TKT0340,2024-03-16,2024-03-16,Resolved,High,Access,L2 Support,Mark,24,14,No,No,4,Email,US
+TKT0341,2024-01-28,,In Progress,Critical,Network,L2 Support,Mark,24,,No,No,,Portal,Canada East
+TKT0342,2024-03-28,2024-03-29,Resolved,Low,Technical,L2 Support,Maya,72,47,No,No,5,Email,Canada West
+TKT0343,2024-02-05,2024-02-08,Resolved,Medium,Password Reset,Billing Team,Priya,48,94,Yes,No,4,Phone,Canada West
+TKT0344,2024-03-15,2024-03-17,Resolved,Low,Access,Application Support,Maya,72,69,No,Yes,5,Phone,US
+TKT0345,2024-03-22,2024-03-23,Resolved,Medium,Account,Billing Team,Mark,48,38,No,No,5,Chat,Canada West
+TKT0346,2024-04-12,,In Progress,High,Password Reset,Billing Team,David,24,,No,No,,Email,APAC
+TKT0347,2024-02-23,2024-02-24,Resolved,Medium,Login,Application Support,Maya,48,36,No,No,4,Chat,US
+TKT0348,2024-03-01,2024-03-03,Resolved,Critical,Access,Application Support,Mark,24,68,Yes,Yes,3,Chat,Canada West
+TKT0349,2024-04-13,2024-04-14,Resolved,High,Technical,Billing Team,Sarah,24,47,Yes,No,5,Chat,US
+TKT0350,2024-02-17,,In Progress,Medium,Account,Infra Team,Sarah,48,,No,No,,Portal,Canada East
+TKT0351,2024-04-30,2024-05-02,Resolved,High,Database,L2 Support,Rohan,24,60,Yes,Yes,5,Email,APAC
+TKT0352,2024-01-18,2024-01-19,Resolved,Critical,Access,Infra Team,Maya,24,31,Yes,No,4,Portal,Canada West
+TKT0353,2024-03-21,2024-03-22,Resolved,Critical,Access,L1 Support,John,24,29,Yes,No,3,Portal,US
+TKT0354,2024-04-10,2024-04-12,Resolved,High,Billing,L2 Support,Maya,24,69,Yes,No,1,Portal,APAC
+TKT0355,2024-01-26,2024-01-29,Resolved,High,Login,Billing Team,Rohan,24,88,Yes,No,3,Chat,Canada East
+TKT0356,2024-04-22,2024-04-22,Resolved,Medium,Technical,L1 Support,Chris,48,13,No,No,3,Phone,Canada West
+TKT0357,2024-04-03,2024-04-04,Resolved,Medium,Access,Infra Team,David,48,32,No,No,5,Phone,APAC
+TKT0358,2024-04-13,2024-04-14,Resolved,Medium,Network,L2 Support,David,48,29,No,Yes,5,Chat,Canada East
+TKT0359,2024-04-11,2024-04-14,Resolved,Low,Account,Application Support,Maya,72,91,Yes,No,1,Email,Canada East
+TKT0360,2024-01-15,2024-01-16,Resolved,Medium,Password Reset,L1 Support,Rohan,48,34,No,No,4,Phone,APAC
+TKT0361,2024-02-08,,Open,Medium,Billing,Application Support,Mark,48,,No,Yes,,Chat,APAC
+TKT0362,2024-04-02,2024-04-03,Resolved,High,Account,L1 Support,Sarah,24,41,Yes,No,5,Portal,Canada West
+TKT0363,2024-02-15,2024-02-17,Resolved,High,Account,L2 Support,John,24,69,Yes,No,1,Portal,Canada West
+TKT0364,2024-03-26,,Open,Low,Billing,Application Support,Priya,72,,No,Yes,,Chat,Canada East
+TKT0365,2024-04-02,2024-04-02,Resolved,Low,Account,L2 Support,Priya,72,20,No,No,5,Phone,US
+TKT0366,2024-04-19,2024-04-20,Resolved,Medium,Access,Infra Team,Sarah,48,25,No,No,3,Email,Canada East
+TKT0367,2024-02-15,2024-02-17,Resolved,Critical,Account,L1 Support,Emma,24,59,Yes,No,3,Phone,Canada West
+TKT0368,2024-02-19,2024-02-19,Resolved,High,Database,Infra Team,David,24,15,No,No,5,Email,Canada West
+TKT0369,2024-01-14,,Open,Medium,Database,Application Support,Priya,48,,No,No,,Chat,APAC
+TKT0370,2024-04-20,2024-04-20,Resolved,High,Technical,Infra Team,Priya,24,16,No,No,3,Email,APAC
+TKT0371,2024-03-31,2024-04-01,Resolved,Critical,Network,Billing Team,Rohan,24,39,Yes,No,4,Email,APAC
+TKT0372,2024-03-23,,In Progress,Medium,Login,L1 Support,David,48,,No,Yes,,Portal,APAC
+TKT0373,2024-03-03,2024-03-04,Resolved,Medium,Access,Billing Team,John,48,38,No,Yes,4,Chat,APAC
+TKT0374,2024-03-14,2024-03-14,Resolved,Medium,Database,Infra Team,Emma,48,10,No,Yes,4,Email,APAC
+TKT0375,2024-03-12,2024-03-14,Resolved,Medium,Billing,Application Support,Maya,48,66,Yes,No,4,Phone,Canada West
+TKT0376,2024-01-07,2024-01-07,Resolved,High,Database,Billing Team,Rohan,24,22,No,Yes,4,Portal,US
+TKT0377,2024-01-01,2024-01-02,Resolved,Medium,Account,Application Support,Rohan,48,29,No,No,5,Phone,Canada East
+TKT0378,2024-04-05,2024-04-07,Resolved,High,Billing,Billing Team,Maya,24,58,Yes,No,5,Chat,Canada West
+TKT0379,2024-01-25,2024-01-28,Resolved,High,Billing,Infra Team,John,24,83,Yes,No,2,Email,APAC
+TKT0380,2024-03-04,2024-03-05,Resolved,Low,Login,Application Support,Chris,72,30,No,No,2,Portal,Canada West
+TKT0381,2024-02-19,2024-02-21,Resolved,High,Access,Application Support,Chris,24,51,Yes,No,4,Portal,Canada West
+TKT0382,2024-01-18,2024-01-19,Resolved,Low,Account,Application Support,Emma,72,45,No,No,5,Chat,Canada West
+TKT0383,2024-01-17,,Open,Critical,Technical,Application Support,Rohan,24,,No,No,,Phone,Canada East
+TKT0384,2024-03-15,2024-03-15,Resolved,High,Password Reset,Application Support,Mark,24,11,No,No,2,Portal,Canada East
+TKT0385,2024-01-08,2024-01-09,Resolved,Low,Technical,Billing Team,Mark,72,45,No,No,4,Chat,Canada East
+TKT0386,2024-02-15,2024-02-16,Resolved,High,Billing,Application Support,Rohan,24,44,Yes,No,1,Chat,APAC
+TKT0387,2024-02-18,2024-02-20,Resolved,Medium,Access,Application Support,John,48,64,Yes,No,5,Email,US
+TKT0388,2024-03-31,2024-04-01,Resolved,High,Access,Application Support,Rohan,24,30,Yes,No,2,Chat,Canada West
+TKT0389,2024-01-23,2024-01-24,Resolved,High,Billing,Infra Team,John,24,24,No,No,5,Portal,US
+TKT0390,2024-01-01,,Open,Medium,Technical,L1 Support,David,48,,No,No,,Phone,Canada East
+TKT0391,2024-04-17,,Open,High,Database,Application Support,Rohan,24,,No,No,,Phone,Canada East
+TKT0392,2024-01-29,2024-01-30,Resolved,Critical,Billing,Application Support,David,24,36,Yes,No,4,Portal,APAC
+TKT0393,2024-02-12,2024-02-14,Resolved,Medium,Network,Application Support,Rohan,48,52,Yes,No,5,Portal,Canada East
+TKT0394,2024-03-19,2024-03-22,Resolved,Critical,Network,L1 Support,Emma,24,77,Yes,No,1,Portal,Canada East
+TKT0395,2024-03-07,2024-03-10,Resolved,High,Access,Application Support,Rohan,24,91,Yes,No,4,Portal,APAC
+TKT0396,2024-01-13,,Open,Low,Login,L1 Support,Alice,72,,No,No,,Chat,APAC
+TKT0397,2024-04-16,2024-04-16,Resolved,High,Password Reset,L1 Support,David,24,12,No,Yes,2,Email,APAC
+TKT0398,2024-04-11,2024-04-14,Resolved,Medium,Billing,Application Support,Alice,48,88,Yes,No,3,Phone,APAC
+TKT0399,2024-02-19,2024-02-22,Resolved,High,Login,Application Support,Sarah,24,72,Yes,Yes,5,Email,Canada East
+TKT0400,2024-02-08,2024-02-11,Resolved,High,Account,Infra Team,Chris,24,76,Yes,No,5,Portal,Canada East
+TKT0401,2024-04-11,2024-04-14,Resolved,High,Account,L2 Support,Mark,24,79,Yes,Yes,1,Phone,Canada East
+TKT0402,2024-03-14,2024-03-17,Resolved,High,Billing,Billing Team,Alice,24,90,Yes,No,2,Phone,Canada West
+TKT0403,2024-01-24,,In Progress,Medium,Account,L2 Support,Sarah,48,,No,No,,Chat,Canada East
+TKT0404,2024-03-11,2024-03-14,Resolved,Medium,Billing,Billing Team,Sarah,48,82,Yes,No,3,Phone,Canada East
+TKT0405,2024-01-17,2024-01-19,Resolved,High,Network,L1 Support,Mark,24,65,Yes,No,4,Email,Canada West
+TKT0406,2024-03-29,2024-03-30,Resolved,High,Access,Billing Team,Chris,24,36,Yes,No,4,Chat,Canada East
+TKT0407,2024-02-05,2024-02-06,Resolved,High,Technical,Billing Team,Priya,24,47,Yes,No,2,Portal,APAC
+TKT0408,2024-03-23,2024-03-26,Resolved,High,Account,L2 Support,Rohan,24,88,Yes,Yes,2,Chat,US
+TKT0409,2024-01-03,,In Progress,High,Login,Application Support,Maya,24,,No,No,,Portal,Canada West
+TKT0410,2024-03-10,,In Progress,Critical,Database,L2 Support,Emma,24,,No,No,,Portal,Canada West
+TKT0411,2024-04-19,2024-04-19,Resolved,Medium,Database,Application Support,Rohan,48,9,No,No,5,Email,APAC
+TKT0412,2024-04-13,2024-04-16,Resolved,Critical,Technical,Application Support,David,24,80,Yes,No,5,Portal,Canada West
+TKT0413,2024-04-04,2024-04-06,Resolved,High,Access,L1 Support,Alice,24,55,Yes,No,4,Portal,Canada West
+TKT0414,2024-03-07,2024-03-10,Resolved,Critical,Access,Infra Team,Priya,24,91,Yes,No,5,Portal,Canada East
+TKT0415,2024-03-07,2024-03-09,Resolved,High,Account,Billing Team,Maya,24,54,Yes,No,5,Chat,APAC
+TKT0416,2024-01-10,,Open,Medium,Password Reset,L2 Support,Rohan,48,,No,No,,Portal,US
+TKT0417,2024-04-11,2024-04-14,Resolved,Medium,Login,Application Support,David,48,73,Yes,No,3,Portal,Canada West
+TKT0418,2024-01-24,2024-01-26,Resolved,Low,Billing,L2 Support,Chris,72,69,No,No,4,Phone,Canada East
+TKT0419,2024-03-23,2024-03-26,Resolved,High,Login,L2 Support,John,24,73,Yes,Yes,4,Chat,Canada West
+TKT0420,2024-01-08,,In Progress,Low,Technical,Application Support,Chris,72,,No,No,,Email,US
+TKT0421,2024-03-18,,Open,Critical,Database,L2 Support,Alice,24,,No,No,,Portal,Canada West
+TKT0422,2024-01-24,2024-01-26,Resolved,High,Account,L2 Support,Emma,24,57,Yes,Yes,1,Portal,Canada East
+TKT0423,2024-03-07,2024-03-10,Resolved,Critical,Password Reset,L2 Support,Maya,24,86,Yes,No,5,Email,Canada West
+TKT0424,2024-03-09,,In Progress,Medium,Billing,L1 Support,Priya,48,,No,No,,Chat,Canada East
+TKT0425,2024-03-24,,In Progress,Medium,Password Reset,Billing Team,John,48,,No,No,,Portal,Canada West
+TKT0426,2024-04-08,,Open,Medium,Billing,Infra Team,David,48,,No,No,,Phone,APAC
+TKT0427,2024-01-11,2024-01-11,Resolved,Medium,Password Reset,Billing Team,Alice,48,23,No,No,4,Email,Canada East
+TKT0428,2024-01-27,2024-01-30,Resolved,High,Access,Infra Team,Emma,24,82,Yes,No,5,Email,Canada West
+TKT0429,2024-02-24,2024-02-27,Resolved,High,Account,Infra Team,Alice,24,79,Yes,No,3,Portal,APAC
+TKT0430,2024-02-09,,Open,High,Password Reset,L2 Support,Sarah,24,,No,No,,Chat,APAC
+TKT0431,2024-01-13,2024-01-16,Resolved,Medium,Password Reset,Billing Team,Rohan,48,89,Yes,Yes,2,Email,Canada West
+TKT0432,2024-01-19,2024-01-22,Resolved,Medium,Password Reset,L1 Support,Sarah,48,85,Yes,Yes,4,Phone,Canada West
+TKT0433,2024-02-21,2024-02-22,Resolved,High,Account,Application Support,John,24,33,Yes,No,5,Chat,APAC
+TKT0434,2024-03-07,2024-03-09,Resolved,Medium,Login,Application Support,Rohan,48,54,Yes,No,1,Chat,Canada West
+TKT0435,2024-01-21,2024-01-24,Resolved,Low,Account,Infra Team,Emma,72,74,Yes,Yes,5,Portal,APAC
+TKT0436,2024-04-27,,In Progress,Low,Account,Application Support,Maya,72,,No,No,,Phone,US
+TKT0437,2024-03-18,2024-03-21,Resolved,Critical,Database,Infra Team,Maya,24,72,Yes,Yes,2,Email,US
+TKT0438,2024-02-07,,In Progress,Medium,Billing,Application Support,Mark,48,,No,No,,Phone,APAC
+TKT0439,2024-04-08,2024-04-08,Resolved,Medium,Access,Infra Team,Priya,48,16,No,No,5,Email,APAC
+TKT0440,2024-01-29,2024-01-30,Resolved,High,Network,Billing Team,Chris,24,41,Yes,No,2,Phone,Canada East
+TKT0441,2024-03-27,2024-03-28,Resolved,High,Access,L1 Support,Rohan,24,35,Yes,No,3,Chat,APAC
+TKT0442,2024-04-05,,In Progress,High,Network,Infra Team,Alice,24,,No,No,,Chat,Canada West
+TKT0443,2024-01-26,2024-01-29,Resolved,High,Access,L2 Support,Sarah,24,92,Yes,No,1,Email,Canada East
+TKT0444,2024-04-19,,In Progress,Medium,Login,Infra Team,Emma,48,,No,No,,Phone,APAC
+TKT0445,2024-03-14,2024-03-17,Resolved,Critical,Database,L2 Support,Rohan,24,81,Yes,Yes,4,Phone,APAC
+TKT0446,2024-02-24,2024-02-24,Resolved,Medium,Login,Application Support,Emma,48,23,No,No,4,Portal,Canada West
+TKT0447,2024-03-29,2024-03-30,Resolved,Low,Network,Infra Team,Maya,72,41,No,No,3,Email,US
+TKT0448,2024-02-04,2024-02-06,Resolved,Medium,Access,Billing Team,David,48,55,Yes,No,4,Portal,APAC
+TKT0449,2024-02-27,,Open,Low,Technical,Application Support,Alice,72,,No,No,,Email,US
+TKT0450,2024-04-19,2024-04-20,Resolved,Medium,Technical,L2 Support,Priya,48,25,No,No,5,Email,Canada West
+TKT0451,2024-03-07,2024-03-11,Resolved,Medium,Access,Infra Team,Mark,48,96,Yes,No,3,Phone,Canada East
+TKT0452,2024-02-02,2024-02-05,Resolved,Medium,Billing,Infra Team,Emma,48,79,Yes,No,3,Phone,US
+TKT0453,2024-01-03,2024-01-06,Resolved,Medium,Access,Application Support,Alice,48,94,Yes,No,5,Chat,US
+TKT0454,2024-02-27,,In Progress,Critical,Password Reset,Application Support,Mark,24,,No,No,,Portal,Canada West
+TKT0455,2024-04-28,2024-04-30,Resolved,Medium,Password Reset,L1 Support,Sarah,48,48,No,No,5,Chat,US
+TKT0456,2024-03-18,2024-03-18,Resolved,High,Account,Infra Team,Emma,24,10,No,Yes,3,Portal,APAC
+TKT0457,2024-02-02,2024-02-04,Resolved,Critical,Billing,L2 Support,David,24,68,Yes,No,1,Portal,Canada East
+TKT0458,2024-02-20,2024-02-22,Resolved,Medium,Billing,L1 Support,Mark,48,57,Yes,No,3,Chat,Canada East
+TKT0459,2024-02-06,2024-02-08,Resolved,Medium,Technical,L2 Support,Rohan,48,53,Yes,No,3,Chat,Canada East
+TKT0460,2024-03-01,2024-03-03,Resolved,Medium,Account,Application Support,Priya,48,66,Yes,No,4,Chat,Canada West
+TKT0461,2024-03-13,2024-03-15,Resolved,Medium,Account,Billing Team,Priya,48,54,Yes,No,3,Chat,Canada East
+TKT0462,2024-01-02,2024-01-04,Resolved,Low,Technical,Billing Team,Mark,72,70,No,No,4,Portal,Canada East
+TKT0463,2024-01-02,2024-01-05,Resolved,High,Account,Application Support,Alice,24,79,Yes,No,3,Email,US
+TKT0464,2024-04-01,2024-04-02,Resolved,High,Password Reset,Infra Team,Alice,24,38,Yes,No,5,Phone,Canada East
+TKT0465,2024-03-19,2024-03-19,Resolved,High,Account,Billing Team,Rohan,24,16,No,No,3,Phone,APAC
+TKT0466,2024-03-22,2024-03-23,Resolved,Medium,Database,Billing Team,Maya,48,27,No,Yes,4,Portal,Canada West
+TKT0467,2024-01-24,2024-01-25,Resolved,Critical,Account,Billing Team,David,24,27,Yes,Yes,3,Portal,Canada East
+TKT0468,2024-02-23,2024-02-24,Resolved,Medium,Database,Billing Team,Priya,48,26,No,Yes,5,Email,US
+TKT0469,2024-01-10,2024-01-11,Resolved,Medium,Technical,L2 Support,Mark,48,39,No,No,5,Portal,Canada East
+TKT0470,2024-02-01,2024-02-04,Resolved,High,Login,L2 Support,Priya,24,95,Yes,No,5,Email,Canada West
+TKT0471,2024-01-21,2024-01-22,Resolved,High,Login,Application Support,Rohan,24,46,Yes,No,5,Email,US
+TKT0472,2024-04-20,2024-04-21,Resolved,High,Billing,L2 Support,Chris,24,43,Yes,No,4,Phone,Canada East
+TKT0473,2024-02-01,,Open,Low,Login,Application Support,Priya,72,,No,No,,Chat,US
+TKT0474,2024-03-04,2024-03-04,Resolved,Low,Access,L1 Support,John,72,21,No,Yes,3,Phone,Canada West
+TKT0475,2024-03-12,2024-03-13,Resolved,High,Access,Infra Team,Alice,24,25,Yes,No,1,Email,APAC
+TKT0476,2024-03-31,2024-04-02,Resolved,Medium,Account,Application Support,Priya,48,49,Yes,No,3,Chat,Canada West
+TKT0477,2024-04-16,2024-04-17,Resolved,High,Technical,L1 Support,Rohan,24,41,Yes,No,4,Chat,APAC
+TKT0478,2024-04-09,2024-04-09,Resolved,High,Password Reset,L2 Support,John,24,16,No,No,4,Phone,Canada West
+TKT0479,2024-02-19,2024-02-21,Resolved,Low,Database,Application Support,David,72,49,No,Yes,4,Phone,US
+TKT0480,2024-01-09,2024-01-09,Resolved,Low,Technical,L2 Support,John,72,20,No,Yes,4,Chat,Canada East
+TKT0481,2024-02-19,2024-02-20,Resolved,High,Account,L1 Support,Emma,24,34,Yes,No,5,Chat,Canada East
+TKT0482,2024-04-16,,Open,Low,Login,Billing Team,Rohan,72,,No,Yes,,Portal,US
+TKT0483,2024-03-19,,In Progress,Medium,Login,L1 Support,Mark,48,,No,Yes,,Email,Canada West
+TKT0484,2024-04-02,2024-04-05,Resolved,Medium,Password Reset,L2 Support,Alice,48,79,Yes,No,2,Chat,Canada West
+TKT0485,2024-03-22,2024-03-25,Resolved,High,Database,Infra Team,Sarah,24,72,Yes,No,3,Chat,Canada West
+TKT0486,2024-03-17,2024-03-20,Resolved,Medium,Access,Billing Team,Rohan,48,89,Yes,No,5,Phone,US
+TKT0487,2024-03-18,,In Progress,Medium,Network,Infra Team,Rohan,48,,No,No,,Phone,US
+TKT0488,2024-02-20,,In Progress,Low,Login,Billing Team,Maya,72,,No,No,,Email,Canada West
+TKT0489,2024-02-08,2024-02-10,Resolved,Critical,Network,Billing Team,John,24,66,Yes,No,2,Phone,Canada West
+TKT0490,2024-02-16,2024-02-19,Resolved,Critical,Network,L2 Support,Mark,24,80,Yes,No,5,Phone,Canada East
+TKT0491,2024-04-02,2024-04-05,Resolved,Medium,Database,L2 Support,Priya,48,81,Yes,No,5,Email,US
+TKT0492,2024-04-27,2024-04-30,Resolved,High,Access,Infra Team,Chris,24,85,Yes,No,4,Email,Canada West
+TKT0493,2024-03-21,2024-03-22,Resolved,Medium,Account,Application Support,John,48,36,No,No,4,Phone,Canada West
+TKT0494,2024-02-20,2024-02-22,Resolved,Critical,Billing,L2 Support,Chris,24,51,Yes,Yes,4,Phone,APAC
+TKT0495,2024-01-07,,Open,Medium,Account,L1 Support,Chris,48,,No,No,,Portal,Canada West
+TKT0496,2024-01-26,2024-01-28,Resolved,Medium,Network,Application Support,Maya,48,63,Yes,No,5,Chat,Canada West
+TKT0497,2024-01-12,2024-01-15,Resolved,Low,Password Reset,Infra Team,Emma,72,84,Yes,No,5,Phone,Canada West
+TKT0498,2024-01-22,,In Progress,Critical,Database,Application Support,David,24,,No,No,,Portal,Canada East
+TKT0499,2024-03-28,,In Progress,Medium,Billing,L1 Support,John,48,,No,No,,Chat,Canada West
+TKT0500,2024-01-02,2024-01-05,Resolved,Medium,Billing,Billing Team,Priya,48,76,Yes,No,4,Portal,Canada East
