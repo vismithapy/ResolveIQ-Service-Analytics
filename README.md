@@ -1,4 +1,5 @@
 ResolveIQ – Service Operations Analytics Dashboard
+
 Overview
 This project analyzes IT service ticket data to identify SLA breaches, workload distribution, and operational inefficiencies using SQL, PostgreSQL, and Power BI.
 
@@ -31,5 +32,5 @@ Dashboard Features
 - Team vs SLA Breach Comparison
 
 
-Dashboard Preview
+## Dashboard Preview
 ![Dashboard](images/dashboard_preview.png)
