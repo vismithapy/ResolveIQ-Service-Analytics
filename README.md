@@ -32,4 +32,4 @@ Dashboard Features
 
 
 Dashboard Preview
-![Dashboard](dashboard_preview.png)
+![Dashboard](images/dashboard_preview.png)
